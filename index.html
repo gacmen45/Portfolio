@@ -31,7 +31,8 @@
                 <h2 class="nav__items-header">Marek Gacek</h2>
                 <a href="#" class="nav__item">Home</a>
                 <a href="#about" class="nav__item">About</a>
-                <a href="#portfolio" class="nav__item">Portfolio</a>
+                <a href="#projects" class="nav__item">Projects</a>
+                <a href="#website" class="nav__item">My Website</a>
                 <a href="#contact" class="nav__item">Contact</a>
             </div>
         </div>
@@ -54,22 +55,113 @@
         </div>
     </header>
     <!-- ABOUT -->
-    <section id="about" class="about wrapper">
-            <h2 class="about__header">About <span>Me</span></h2>
-        
-            <div class="about__info">
-                <img class="about__info-img" src="./dist/img/IMG_4967.JPG" alt="my photo">
-                <div class="about__info-text-container">
-            <h3 class="about__info-heading">My name is Marek</h3>
-            <p class="about__info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod culpa, velit aspernatur molestiae veritatis
-                excepturi.</p>
-            <h4 class="about__info-point">Full Name: <span>Marek Gacek</span></h4>
-            <h4 class="about__info-point">Date of Birdth: <span>21 August 1991</span></h4>
-            <h4 class="about__info-point">City: <span>Kraków</span></h4>
-            <h4 class="about__info-point">Language: <span>Polish, English</span></h4>
-            <button class="about__info-button">Download CV</button></div>
+    <section id="about" class="about wrapper section">
+        <h2 class="about__header">About <span>Me</span></h2>
+
+        <div class="about__info">
+            <img class="about__info-img" src="./dist/img/IMG_4967.JPG" alt="my photo">
+            <div class="about__info-text-container">
+                <h3 class="about__info-heading">My name is Marek</h3>
+                <p class="about__info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod culpa, velit
+                    aspernatur molestiae veritatis
+                    excepturi.</p>
+                <h4 class="about__info-point">Full Name: <span>Marek Gacek</span></h4>
+                <h4 class="about__info-point">Date of Birdth: <span>21 August 1991</span></h4>
+                <h4 class="about__info-point">City: <span>Kraków</span></h4>
+                <h4 class="about__info-point">Language: <span>Polish, English</span></h4>
+                <button class="about__info-button">Download CV</button>
+            </div>
         </div>
     </section>
+<!-- PROJECTS -->
+    <section id="projects" class="projects section wrapper">
+        <div class="heading">
+            <h2 class="heading-header">My <span>Projects</span></h2>
+        </div>
+        <div class="projects__container">
+            <div class="projects__item">
+                <h3 class="projects__item-header">React </h3>
+                <i class="fa-brands fa-react projects__item-icon "></i>
+                <a href="https://github.com/gacmen45/React-Projects" target="_blank">
+                <button class="projects__item-button">Check</button></a>
+            
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__item-header">JavaScript</h3>
+                <i class="fa-brands fa-js projects__item-icon "></i>
+                <button class="projects__item-button">Check</button>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__item-header">Websites</h3>
+                <i class="fa-brands fa-html5 projects__item-icon "></i>
+                <button class="projects__item-button">Check</button>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__item-header">My Github</h3>
+                <i class="fa-brands fa-square-github projects__item-icon "></i>
+                <a href="https://github.com/gacmen45" target="_blank">
+                <button class="projects__item-button">Check</button></a>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__item-header">My CodePen</h3>
+                <i class="fa-brands fa-codepen projects__item-icon "></i>
+                <a href="https://codepen.io/gacmen45" target="_blank">
+                <button class="projects__item-button">Check</button></a>
+            </div>
+            
+        </div>
+
+    </section>
+    <section id="website" class="website section wrapper">
+        <div class="heading">
+            <h2 class="heading-header">My <span>Website</span></h2>
+        </div>
+            <div class="website__container">
+                <h3 class="website__header">In Progress  <span class="element2"></span></h3>
+               
+            </div>
+    </section>
+    <section id="contact" class="contact section wrapper">
+        <div class="heading">
+            <h2 class="heading-header">Contact <span>Me</span></h2>
+        </div>
+        <div class="contact__container">
+           
+        <a href="tel:537-392-878">
+            <div class="contact__item">
+                <i class="fa-solid fa-phone contact__item-icon"></i>
+                <h3 class="contact__item-header">Phone</h3>
+                <p class="contact__item-text">537-392-878</p>
+            </div>
+        </a>
+           <a href="https://www.linkedin.com/in/marek-gacek/" target="_blank">
+            <div class="contact__item">
+                <i class="fa-brands fa-linkedin contact__item-icon"></i>
+                <h3 class="contact__item-header">Linkedin</h3>
+                <p class="contact__item-text">Contact</p>
+            </div>
+        </a>
+        <a href="https://m.me/marek.gacek.9465/" target="_blank">
+            <div class="contact__item">
+                <i class="fa-brands fa-facebook-messenger contact__item-icon"></i>
+                <h3 class="contact__item-header">Messenger</h3>
+                <p class="contact__item-text">Sent Message</p>
+            </div>
+        </a>
+        <a href="mailto:marekgacek45@gmail.com">
+            <div class="contact__item">
+                <i class="fa-solid fa-envelope contact__item-icon"></i>
+                <h3 class="contact__item-header">Email</h3>
+                <p class="contact__item-text">marekgacek45@gmail.com</p>
+            </div>
+        </a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__author">
+            <p class="footer__author-text">design by <a href="https://github.com/gacmen45"> <img
+                        src="./dist/img/gacmen.png" alt="">gacmen45</a></p>
+    </footer>
 
     <script src="./dist/js/main.min.js" type="module"></script>
 
