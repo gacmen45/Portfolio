@@ -1,4 +1,4 @@
-<div id="header" align="center">
+<divalign="center">
   <img src="https://media4.giphy.com/media/M9kgjEsLG6LMbYC9dl/giphy.gif?cid=ecf05e47lhf5yvp8z16kerd354beyo5e6fxfuk0mftzb1212&rid=giphy.gif&ct=g" width="150"/>
   <div id="badges">
   <a href="https://www.linkedin.com/in/marek-gacek">
